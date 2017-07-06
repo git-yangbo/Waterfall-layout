@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#box{
+    overflow: hidden;
+    clear: both;
+    display: block;
+    content: "";
+}
+#box ul{
+    list-style: none;
+    margin-left:12px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 8px;
+
+
+}
+#box ul li {
+    width: 200px;
+    position: relative;
+    border: 1px solid #666;
+    box-shadow: 0 0 0 #ccc;
+
+}
+li span{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background: #ffffff;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    display: none;
+}
+li span:hover{
+    color: #E01d20;
+}
+#box ul li img{
+    width: 100%;
+    background: url("images/666.gif");
+    opacity: 0.8;
+    filter: alpha(opacity=30);
+}
+#box ul li a{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    color: #FFFFFF;
+    background: #E01d20;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    display: none;
+    font-size: 14px;
+}
+#box ul li a:hover{
+    background: #82FFE4;
+}
+#box ul li:hover a{
+    display: block;
+}
+#box ul li:hover span{
+    display: block;
+}
+#box ul li p{
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+#back{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+#back2{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
